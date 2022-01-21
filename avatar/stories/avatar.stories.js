@@ -5,16 +5,20 @@ provideDesignSystem().register(getAvatar());
 
 export const defaultStory = () => html`
   <div>
-    <style>
-      /* For example purposes only. App authors needs to define */
-      fs-avatar {
-        --avatar-fill-accent-primary: #cf4073;
-      }
-    </style>
+    <style></style>
 
     <fs-avatar
       alt="Annie's profile image"
       link="#"
+      name="Annie Lennox"
+      shape="circle"
+      fill="accent-primary"
+    ></fs-avatar>
+
+    <fs-avatar
+      alt="Annie's profile image"
+      link="#"
+      src="https://via.placeholder.com/32"
       name="Annie Lennox"
       shape="circle"
       fill="accent-primary"

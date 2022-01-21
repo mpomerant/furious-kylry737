@@ -1,8 +1,8 @@
 import { parseColorHexRGB } from '@microsoft/fast-colors';
 import { PaletteRGB, StandardLuminance, SwatchRGB } from '@microsoft/fast-components';
 
-const accentColorValue = '#000000';
-const neutralColorValue = '#FFFFFF';
+const accentColorValue = '#0696d7';
+const neutralColorValue = '#808080';
 
 export const accentPaletteValue = PaletteRGB.from(SwatchRGB.from(parseColorHexRGB(accentColorValue)));
 export const neutralPaletteValue = PaletteRGB.from(SwatchRGB.from(parseColorHexRGB(neutralColorValue)));

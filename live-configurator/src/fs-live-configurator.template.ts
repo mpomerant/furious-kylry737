@@ -47,5 +47,5 @@ export const FsLiveConfiguratorTemplate = html<FsLiveConfigurator>`
     )}
   </div>
   <h2>Preview</h2>
-  <div class="preview" ${ref('preview')}>${PreviewTemplate}</div>
+  <div class="preview" ${ref('preview')} style="background-color: var(--neutral-layer-1)">${PreviewTemplate}</div>
 `;
